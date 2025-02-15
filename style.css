@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+}
+
+.boxx {
+    display: flex;
+    height: 100px;
+    width: 100px; 
+    background-color: purple;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 5px;
+ 
+}
+
+.small-box {
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+    margin: 2px;
+}
